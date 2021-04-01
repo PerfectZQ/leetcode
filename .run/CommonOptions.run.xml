@@ -1,0 +1,16 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="JVMCommonOptions" type="Application" factoryName="Application" nameIsGenerated="true">
+    <option name="MAIN_CLASS_NAME" value="com.jvm.JVMCommonOptions" />
+    <module name="leetcode" />
+    <option name="VM_PARAMETERS" value="-Xms64m -Xmx64m -XX:+PrintHeadAtGC -XX:+HeapDumpOnOutOfMemoryError" />
+    <extension name="coverage">
+      <pattern>
+        <option name="PATTERN" value="com.jvm.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

@@ -1,4 +1,4 @@
-package com.zq;
+package com.algorithm;
 
 /**
  * ascii to integer

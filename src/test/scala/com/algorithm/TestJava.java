@@ -1,4 +1,4 @@
-package com.zq;
+package com.algorithm;
 
 public class TestJava {
     public static void main(String[] args) {
