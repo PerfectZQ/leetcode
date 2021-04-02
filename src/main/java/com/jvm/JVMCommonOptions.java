@@ -15,7 +15,7 @@ public class JVMCommonOptions {
 
     public static void main(String[] args) {
         int capacity = 10000000;
-        Set<Long> set = new HashSet<Long>(capacity);
+        Set<Long> set = new HashSet<>(capacity);
         for (long i = 0L; i < capacity; i++) {
             set.add(i);
         }
