@@ -2,7 +2,7 @@
   <configuration default="false" name="JVMCommonOptions" type="Application" factoryName="Application" nameIsGenerated="true">
     <option name="MAIN_CLASS_NAME" value="com.jvm.JVMCommonOptions" />
     <module name="leetcode" />
-    <option name="VM_PARAMETERS" value="-Xms64m -Xmx64m -XX:+PrintHeapAtGC -XX:+HeapDumpOnOutOfMemoryError" />
+    <option name="VM_PARAMETERS" value="-Xms2m -Xmx2m -XX:+PrintHeapAtGC -XX:+HeapDumpOnOutOfMemoryError" />
     <extension name="coverage">
       <pattern>
         <option name="PATTERN" value="com.jvm.*" />

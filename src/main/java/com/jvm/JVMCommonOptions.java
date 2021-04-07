@@ -13,13 +13,14 @@ import java.util.Set;
  */
 public class JVMCommonOptions {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         int capacity = 10000000;
-        Set<Long> set = new HashSet<>(capacity);
+        Set<Long> set = new HashSet<>();
         for (long i = 0L; i < capacity; i++) {
             set.add(i);
+            Thread.sleep(1);
         }
-        assert set.contains(1L);
+        // assert set.contains(1L);
     }
 
 }
