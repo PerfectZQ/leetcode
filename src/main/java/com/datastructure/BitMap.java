@@ -82,7 +82,7 @@ public class BitMap {
     public String toString() {
         StringBuilder binaryString = new StringBuilder();
         for (int i = size - 1; i >= 0; i--) {
-            StringBuilder elemBinary = new StringBuilder(Integer.toBinaryString(elems[i])).reverse();
+            StringBuilder elemBinary = new StringBuilder(Integer.toBinaryString(elems[i]));
             binaryString.append(intBinary32(elemBinary)).append(",");
         }
         return binaryString.substring(0, binaryString.length() - 1);
@@ -104,13 +104,13 @@ public class BitMap {
     public static void main(String[] args) {
         BitMap bitMap = new BitMap(2);
         bitMap.add(0);
-        System.out.println(bitMap.toString());
+        System.out.println("bitMap.add(0) " + bitMap.toString());
         bitMap.add(1);
-        System.out.println(bitMap.toString());
+        System.out.println("bitMap.add(1) " + bitMap.toString());
         bitMap.add(2);
-        System.out.println(bitMap.toString());
+        System.out.println("bitMap.add(2) " + bitMap.toString());
         bitMap.delete(1);
-        System.out.println(bitMap.toString());
+        System.out.println("bitMap.delete(1) " + bitMap.toString());
     }
 
 }
